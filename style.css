@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --bg-primaria: #8DCBE6;
+    --bg-secundaria: #9DF1DF;
+    --cor-da-fonte: #E3F6FF;
+    --font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+    background: linear-gradient(to bottom left, var(--bg-primaria), var(--bg-secundaria));
+    color: var(--cor-da-fonte);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 16px;
+}
+
+.titulo-principal {
+    font-size: 36px;
+}
+
+.mensagem-pagina {
+    font-size: 26px;
+}
+
+.mensagem {
+    font-size: 20px;
+}
+
+.mensagem div {
+    display: block;
+}
+
+.box {
+    display: inline-block;
+    margin: 16px 0;
+    border: solid 2px var(--cor-da-fonte);
+    padding: 6px;
+    font-size: 52px;
+}
+
+.dica-numero {
+    margin: 1rem;
+}
+
+.voce-acertou {
+    font-size: 48px;
+}
+
+.resposta-certa {
+    font-size: 26px;
+    width: 35%;
+    line-height: 1.5;
+}
+
+.btn-jogar {
+    padding: 8px 15px;
+    border: 2px solid var(--cor-da-fonte);
+    background: var(--bg-primaria);
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: var(--cor-da-fonte);
+    letter-spacing: 1px;
+}
+
+.btn-jogar:hover {
+    transform: scale(1.1);
+}
