@@ -11,5 +11,3 @@ elementoMaiorValor.innerHTML = maiorValor
 function gerarValorAleatorio() {
     return parseInt(Math.random() * maiorValor) + 1
 }
-
-console.log(numeroSecreto)
