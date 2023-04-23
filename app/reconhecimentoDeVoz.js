@@ -27,7 +27,7 @@ function exibirChute(chute) {
 
 function gameOver(chute) {
     
-    if (chute === "game over") {
+    if (chute === "game over" || chute === "Game over") {
         document.body.innerHTML = `
             <h2 class="voce-acertou">Fim de jogo!</h2>
             <h3 class="resposta-certa">

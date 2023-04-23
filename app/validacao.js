@@ -23,8 +23,8 @@ function verificarChute(chute) {
             <div>
                 Valor inválido
             </div>
-            `
-            return    
+        `
+        return    
     }
 
     if(numero > maiorValor || numero < menorValor) {
